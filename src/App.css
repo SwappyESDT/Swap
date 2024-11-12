@@ -1,0 +1,8 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a202c; /* Culoare de fundal închisă pentru contrast */
+  font-family: Arial, sans-serif;
+}
