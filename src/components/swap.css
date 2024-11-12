@@ -1,0 +1,66 @@
+/* Swap.css */
+.swap-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #0f4c75; /* Culoarea cerului */
+  color: white;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #1e40af; /* Culoare futuristă */
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #aaa;
+}
+
+button i {
+  margin-right: 10px;
+}
+
+.access-denied {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ff0000; /* Culoare roșie pentru mesajul "NOT ALLOWED" */
+  color: white;
+  padding: 50px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+.not-allowed-message {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
